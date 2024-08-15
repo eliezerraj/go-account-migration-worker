@@ -1,0 +1,45 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: go-account-migration-worker
+  namespace: test-a
+  labels:
+    fargate: "false"
+    app: go-account-migration-worker
+    environment: dev
+    version: "1.0"
+spec:
+  backoffLimit: 1
+  ttlSecondsAfterFinished: 604800
+  template:
+    metadata:
+      annotations:
+        kubernetes.io/change-cause: "COMMIT_MESSAGE"
+      labels:
+        fargate: "false"
+        app: go-account-migration-worker
+        environment: dev
+        version: "1.0"
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: go-account-migration-worker
+          image: 908671954593.dkr.ecr.us-east-2.amazonaws.com/go-account-migration-worker:latest
+          envFrom:
+            - secretRef:
+                name: es-rds-arch-secret-go-account-migration-worker
+            - configMapRef:
+                name: go-account-migration-worker-cm
+          resources:
+            requests:
+              memory: "90Mi"
+              cpu: "64m"
+            limits:
+              memory: "256Mi"
+              cpu: "128m"
+          securityContext:
+            allowPrivilegeEscalation: false
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 3000
+        fsGroup: 2000

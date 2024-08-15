@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: v0.0.0
+      author: architecture
+      tagDatabase:
+        tag: v0.0.0
+  - include:
+      file: migrations/03-create-table-terminal.sql
+  - include:
+      file: seeders/01-add-terminal.sql
