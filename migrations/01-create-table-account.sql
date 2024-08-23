@@ -1,6 +1,6 @@
--- liquibase formatted sql
-
--- changeset architecture:01
+-- public.account definition
+-- Drop table
+-- DROP TABLE public.account;
 
 CREATE TABLE public.account (
 	id serial4 NOT NULL,
@@ -13,5 +13,3 @@ CREATE TABLE public.account (
 	CONSTRAINT account_account_id_key UNIQUE (account_id),
 	CONSTRAINT account_pkey PRIMARY KEY (id)
 );
-
--- rollback DROP TABLE public.account CASCADE;
