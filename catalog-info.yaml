@@ -2,16 +2,16 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    github.com/project-slug: dock-tech/medjat-migrations-api
-  description: "API para cria\xE7\xE3o das migrations do banco de dados Medjat"
-  name: medjat-migrations-api
+    github.com/project-slug: dock-tech/architecture
+  description: "Database migrations"
+  name: go-account-migration
   tags: []
 spec:
-  lifecycle: production
-  owner: dock-tech
+  lifecycle: dev
+  owner: architecture
   serviceOwners:
     owner: dock-tech
-    squad: Osiris
-    tribe: Abydos
-  system: medjat
+    squad: arch
+    tribe: architecture
+  system: account
   type: service

@@ -1,19 +1,10 @@
 databaseChangeLog:
   - changeSet:
-      id: v0.0.0
+      id: v0.1.0
       author: architecture
       tagDatabase:
-        tag: v0.0.0
+        tag: v0.1.0
   - include:
-      file: migrations/03-create-table-terminal.sql
+      file: migrations/12-create-table-order.sql
   - include:
-      file: seeders/01-add-terminal.sql
-  - changeSet:
-      id: v0.0.1
-      author: architecture
-      tagDatabase:
-        tag: v0.0.1
-  - include:
-      file: migrations/04-create-table-payment.sql
-  - include:
-      file: seeders/01-add-terminal.sql
+      file: migrations/13-create-table-order_itens.sql
