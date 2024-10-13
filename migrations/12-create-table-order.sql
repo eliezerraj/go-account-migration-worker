@@ -15,6 +15,5 @@ CREATE TABLE public.order (
 	CONSTRAINT order_pkey PRIMARY KEY (id)
 );
 
-CREATE INDEX order_idx ON public.order USING btree (order_id);
-
+CREATE UNIQUE INDEX order_idx ON public.order USING btree (order_id);
 CREATE INDEX order_person_idx ON public.order USING btree (person_id);
