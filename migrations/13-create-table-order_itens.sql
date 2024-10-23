@@ -16,5 +16,4 @@ CREATE TABLE public.order_item (
 );
 
 CREATE INDEX order_item_idx ON public.order_item USING btree (fk_order_id);
-
 ALTER TABLE public.order_item ADD CONSTRAINT order_item_fk_order_id_fkey FOREIGN KEY (fk_order_id) REFERENCES public.order(id);
