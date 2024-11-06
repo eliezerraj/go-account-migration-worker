@@ -1,5 +1,7 @@
 -- public.account_balance definition
+
 -- Drop table
+
 -- DROP TABLE public.account_balance;
 
 CREATE TABLE public.account_balance (

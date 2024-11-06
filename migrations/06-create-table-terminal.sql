@@ -1,6 +1,8 @@
--- liquibase formatted sql
+-- public.terminal definition
 
--- changeset architecture:01
+-- Drop table
+
+-- DROP TABLE public.terminal;
 
 CREATE TABLE public.terminal (
 	id serial4 NOT NULL,
@@ -12,5 +14,3 @@ CREATE TABLE public.terminal (
 	update_at timestamptz NULL,
 	CONSTRAINT terminal_pkey PRIMARY KEY (id)
 );
-
--- rollback DROP TABLE public.terminal CASCADE;

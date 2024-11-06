@@ -1,5 +1,7 @@
 -- public.account_statement definition
+
 -- Drop table
+
 -- DROP TABLE public.account_statement;
 
 CREATE TABLE public.account_statement (

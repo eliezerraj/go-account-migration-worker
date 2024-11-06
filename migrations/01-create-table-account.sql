@@ -1,5 +1,7 @@
 -- public.account definition
+
 -- Drop table
+
 -- DROP TABLE public.account;
 
 CREATE TABLE public.account (
