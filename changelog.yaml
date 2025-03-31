@@ -7,31 +7,35 @@ databaseChangeLog:
   - include:
       file: migrations/00-extensions.sql
   - include:
-      file: migrations/01-create-table-account.sql
+      file: migrations/01-create-table-onboarding.sql
   - include:
-      file: migrations/02-create-table-account-balance.sql
+      file: migrations/02-create-table-account.sql
   - include:
       file: migrations/03-create-table-account-statement.sql
   - include:
-      file: migrations/04-create-table-account-statement-fee.sql
+      file: migrations/04-create-table-card.sql
   - include:      
-      file: migrations/05-create-table-card.sql
+      file: migrations/05-create-table-account-balance.sql
   - include:      
-      file: migrations/06-create-table-terminal.sql
+      file: migrations/05-create-table-account-balance.sql
   - include:
-      file: migrations/07-create-table-payment.sql
+      file: migrations/07-create-table-account-statement-fee.sql
   - include:
-      file: migrations/08-create-table-audit-account-balance.sql
+      file: migrations/08-create-table-payment.sql
   - include:
-      file: migrations/09-create-table-order.sql
+      file: migrations/09-create-trigger.sql
   - include:
-      file: migrations/10-create-table-order_itens.sql
+      file: migrations/10-create-view-payment.sql
   - include:
-      file: migrations/11-create-trigger.sql
+      file: migrations/13-create-table-audit-account-balance.sql
   - include:
-      file: migrations/12-create-table-transfer-moviment.sql
+      file: migrations/14-create-card-token.sql
   - include:
       file: seeders/01-add-terminal.sql
+  - include:
+      file: seeders/02-add-account.sql
+  - include:
+      file: seeders/03-add-card.sql
   - changeSet:
       id: v0.1.1
       author: architecture

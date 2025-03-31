@@ -1,4 +1,4 @@
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-1',42.0,35.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-2',32.0,95.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-3',52.0,89.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -9,7 +9,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-8',30.0,98.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-9',7.0,24.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-10',40.0,81.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-11',61.0,82.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-12',94.0,29.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-13',66.0,14.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -20,7 +20,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-18',14.0,96.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-19',44.0,22.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-20',12.0,54.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-21',55.0,6.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-22',53.0,85.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-23',24.0,50.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -31,7 +31,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-28',10.0,62.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-29',42.0,39.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-30',32.0,41.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-31',61.0,90.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-32',63.0,58.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-33',73.0,78.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -42,7 +42,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-38',82.0,17.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-39',47.0,13.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-40',34.0,48.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-41',54.0,66.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-42',8.0,20.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-43',38.0,48.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -53,7 +53,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-48',94.0,54.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-49',17.0,56.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-50',36.0,88.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-51',34.0,95.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-52',75.0,64.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-53',79.0,63.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -64,7 +64,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-58',5.0,14.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-59',38.0,34.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-60',5.0,72.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-61',83.0,76.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-62',19.0,77.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-63',97.0,85.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -75,7 +75,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-68',97.0,16.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-69',17.0,4.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-70',33.0,61.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-71',3.0,62.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-72',92.0,18.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-73',58.0,74.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -86,7 +86,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-78',11.0,83.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-79',65.0,62.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-80',60.0,33.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-81',81.0,21.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-82',47.0,75.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-83',84.0,91.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -97,7 +97,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-88',18.0,16.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-89',38.0,21.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-90',97.0,77.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-91',46.0,33.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-92',69.0,36.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-93',100.0,71.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -108,7 +108,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-98',33.0,59.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-99',97.0,54.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-100',147.0,148.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-101',153.0,102.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-102',196.0,180.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-103',134.0,135.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -119,7 +119,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-108',132.0,175.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-109',199.0,128.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-110',100.0,197.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-111',184.0,115.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-112',151.0,199.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-113',129.0,146.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -130,7 +130,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-118',103.0,157.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-119',164.0,181.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-120',133.0,127.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-121',175.0,176.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-122',101.0,197.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-123',139.0,144.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -141,7 +141,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-128',169.0,176.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-129',184.0,138.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-130',125.0,144.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-131',161.0,164.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-132',124.0,162.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-133',137.0,117.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -152,7 +152,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-138',148.0,152.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-139',132.0,118.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-140',144.0,110.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-141',113.0,125.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-142',117.0,137.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-143',173.0,103.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -163,7 +163,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-148',121.0,179.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-149',197.0,178.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-150',120.0,142.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-151',104.0,166.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-152',135.0,193.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-153',173.0,196.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -174,7 +174,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-158',181.0,188.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-159',135.0,122.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-160',172.0,131.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-161',121.0,116.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-162',196.0,190.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-163',185.0,190.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -185,7 +185,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-168',184.0,116.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-169',109.0,171.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-170',192.0,176.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-171',122.0,115.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-172',145.0,194.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-173',176.0,115.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -196,7 +196,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-178',192.0,161.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-179',193.0,134.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-180',126.0,135.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-181',192.0,195.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-182',104.0,129.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-183',166.0,143.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -207,7 +207,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-188',116.0,177.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-189',168.0,103.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-190',152.0,164.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-191',176.0,103.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-192',104.0,142.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-193',106.0,116.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -218,7 +218,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-198',127.0,177.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-199',116.0,139.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-200',253.0,255.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-201',201.0,300.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-202',238.0,216.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-203',223.0,271.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -229,7 +229,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-208',252.0,223.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-209',253.0,219.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-210',215.0,296.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-211',220.0,228.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-212',245.0,237.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-213',237.0,223.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -240,7 +240,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-218',261.0,211.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-219',287.0,296.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-220',254.0,286.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-221',222.0,261.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-222',206.0,233.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-223',235.0,236.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -251,7 +251,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-228',264.0,231.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-229',292.0,230.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-230',224.0,257.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-231',236.0,206.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-232',252.0,285.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-233',273.0,211.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -262,7 +262,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-238',216.0,218.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-239',282.0,264.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-240',298.0,290.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-241',241.0,225.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-242',247.0,239.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-243',227.0,274.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -273,7 +273,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-248',271.0,262.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-249',232.0,220.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-250',255.0,265.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-251',300.0,261.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-252',228.0,282.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-253',256.0,232.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -284,7 +284,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-258',234.0,233.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-259',299.0,235.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-260',265.0,207.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-261',300.0,298.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-262',200.0,230.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-263',256.0,200.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -295,7 +295,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-268',242.0,284.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-269',219.0,299.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-270',293.0,261.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-271',281.0,211.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-272',287.0,265.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-273',245.0,255.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -306,7 +306,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-278',296.0,250.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-279',216.0,236.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-280',264.0,270.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-281',285.0,261.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-282',276.0,234.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-283',271.0,223.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -317,7 +317,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-288',236.0,244.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-289',250.0,273.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-290',210.0,221.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-291',263.0,294.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-292',200.0,209.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-293',227.0,264.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -328,7 +328,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-298',243.0,225.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-299',218.0,261.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-300',389.0,389.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-301',344.0,333.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-302',323.0,379.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-303',319.0,384.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -339,7 +339,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-308',351.0,397.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-309',378.0,392.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-310',302.0,391.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-311',370.0,396.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-312',320.0,325.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-313',362.0,323.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -350,7 +350,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-318',321.0,315.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-319',321.0,317.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-320',329.0,373.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-321',365.0,350.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-322',302.0,387.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-323',322.0,399.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -361,7 +361,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-328',307.0,308.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-329',322.0,330.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-330',385.0,386.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-331',343.0,388.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-332',395.0,362.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-333',379.0,334.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -372,7 +372,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-338',348.0,374.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-339',301.0,301.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-340',361.0,328.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-341',387.0,351.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-342',348.0,377.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-343',363.0,346.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -383,7 +383,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-348',328.0,397.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-349',322.0,322.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-350',363.0,372.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-351',345.0,348.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-352',301.0,301.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-353',366.0,331.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -394,7 +394,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-358',316.0,344.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-359',374.0,350.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-360',301.0,362.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-361',355.0,311.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-362',372.0,395.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-363',321.0,352.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -405,7 +405,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-368',324.0,385.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-369',372.0,304.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-370',399.0,391.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-371',333.0,326.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-372',364.0,308.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-373',332.0,392.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -416,7 +416,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-378',322.0,331.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-379',310.0,302.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-380',367.0,302.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-381',378.0,333.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-382',383.0,341.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-383',352.0,349.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -427,7 +427,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-388',349.0,358.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-389',307.0,375.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-390',395.0,366.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-391',382.0,339.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-392',368.0,340.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-393',377.0,314.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -438,7 +438,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-398',314.0,328.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-399',347.0,325.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-400',450.0,451.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-401',464.0,464.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-402',424.0,458.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-403',404.0,461.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -449,7 +449,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-408',425.0,436.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-409',478.0,486.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-410',472.0,467.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-411',449.0,421.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-412',445.0,421.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-413',471.0,439.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -460,7 +460,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-418',469.0,406.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-419',436.0,463.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-420',428.0,411.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-421',423.0,447.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-422',425.0,498.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-423',411.0,487.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -471,7 +471,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-428',499.0,446.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-429',430.0,434.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-430',479.0,481.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-431',492.0,439.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-432',466.0,456.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-433',446.0,404.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -482,7 +482,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-438',427.0,492.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-439',408.0,427.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-440',434.0,474.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-441',490.0,446.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-442',422.0,452.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-443',493.0,420.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -493,7 +493,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-448',491.0,447.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-449',477.0,479.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-450',491.0,418.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-451',432.0,472.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-452',451.0,454.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-453',452.0,455.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -504,7 +504,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-458',488.0,425.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-459',450.0,462.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-460',471.0,401.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-461',449.0,423.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-462',422.0,490.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-463',469.0,413.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -515,7 +515,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-468',455.0,419.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-469',437.0,409.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-470',402.0,453.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-471',486.0,467.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-472',447.0,451.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-473',411.0,429.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -526,7 +526,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-478',430.0,496.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-479',430.0,406.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-480',459.0,437.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-481',434.0,487.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-482',490.0,491.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-483',444.0,454.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
@@ -537,7 +537,7 @@ INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,upda
 	 ('TERM-488',483.0,496.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-489',490.0,447.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-490',449.0,491.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03');
-INSERT INTO public.terminal (terminal_name,coord_x,coord_y,status,create_at,update_at) VALUES
+INSERT INTO public.terminal (name,coord_x,coord_y,status,created_at,updated_at) VALUES
 	 ('TERM-491',477.0,409.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-492',410.0,493.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),
 	 ('TERM-493',480.0,400.0,'ATIVO','2024-02-18 19:19:05.627388-03','2024-02-18 19:19:05.627388-03'),

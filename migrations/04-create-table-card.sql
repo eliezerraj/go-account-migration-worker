@@ -12,9 +12,9 @@ CREATE TABLE public.card (
 	card_model varchar(200) NULL,
 	card_pin varchar(200) NULL,
 	status varchar(200) NULL,
-	expire_at timestamptz NULL,
-	create_at timestamptz NULL,
-	update_at timestamptz NULL,
+	expired_at timestamptz NULL,
+	created_at timestamptz NULL,
+	updated_at timestamptz NULL,
 	tenant_id varchar(200) NULL,
 	CONSTRAINT card_pkey PRIMARY KEY (id)
 );
