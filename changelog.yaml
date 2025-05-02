@@ -27,26 +27,16 @@ databaseChangeLog:
   - include:
       file: migrations/10-create-view-payment.sql
   - include:
-      file: migrations/13-create-table-audit-account-balance.sql
+      file: migrations/11-create-table-transfer-moviment.sql
   - include:
-      file: migrations/14-create-card-token.sql
+      file: migrations/12-create-table-audit-account-balance.sql
+  - include:
+      file: migrations/13-create-card-token.sql
+  - include:
+      file: migrations/14-create-table-limit.sql
   - include:
       file: seeders/01-add-terminal.sql
   - include:
-      file: seeders/02-add-account.sql
+      file: seeders/02-add-account.sqlll
   - include:
-      file: seeders/03-add-card.sql
-  - changeSet:
-      id: v0.1.1
-      author: architecture
-      tagDatabase:
-        tag: v0.1.1
-  - include:
-      file: seeders/02-add-account.sql
-  - changeSet:
-      id: v0.1.2
-      author: architecture
-      tagDatabase:
-        tag: v0.1.2
-  - include:
-      file: seeders/03-add-card.sql
+      file: seeders/03-add-limit.sql

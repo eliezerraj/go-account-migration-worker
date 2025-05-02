@@ -5,20 +5,22 @@
 -- DROP TABLE public.card;
 
 CREATE TABLE public.card (
-	id serial4 NOT NULL,
-	fk_account_id int4 NULL,
-	card_number varchar(200) NULL,
-	card_type varchar(200) NULL,
-	card_model varchar(200) NULL,
-	card_pin varchar(200) NULL,
-	status varchar(200) NULL,
-	expired_at timestamptz NULL,
-	created_at timestamptz NULL,
-	updated_at timestamptz NULL,
-	tenant_id varchar(200) NULL,
+	id 				serial4 NOT NULL,
+	fk_account_id 	int4 NULL,
+	card_number 	varchar NULL,
+	holder 			varchar NULL,
+	card_type 		varchar	NULL,
+	card_model 		varchar NULL,
+	atc 			int NULL,
+	status 			varchar NULL,
+	expired_at 		timestamptz NULL,
+	created_at 		timestamptz NULL,
+	updated_at 		timestamptz NULL,
+	trace_id 		varchar	NULL,
+	tenant_id 		varchar NULL,
 	CONSTRAINT card_pkey PRIMARY KEY (id)
 );
-CREATE INDEX card_idx ON public.card USING btree (card_number);
+CREATE UNIQUE INDEX card_idx ON public.card USING btree (card_number);
 
 -- public.card foreign keys
 

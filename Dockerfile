@@ -1,3 +1,5 @@
+#docker build -t go-account-migration-worker .
+
 FROM liquibase/liquibase
 
 COPY changelog.yaml changelog.yaml

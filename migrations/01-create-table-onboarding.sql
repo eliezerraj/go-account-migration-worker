@@ -5,12 +5,13 @@
 -- DROP TABLE public.person;
 
 CREATE TABLE public.person (
-	id serial4 NOT NULL,
-	person_id varchar(200) NOT NULL,
-	name varchar(200) NULL,
+	id 			serial4 NOT NULL,
+	person_id	varchar NOT NULL,
+	name 		varchar NULL,
 	created_at timestamptz NULL,
 	updated_at timestamptz NULL,
-	tenant_id varchar(200) null,
+	trace_id 	varchar	NULL,
+	tenant_id 	varchar	NULL,
 	CONSTRAINT person_id_key UNIQUE (person_id),
 	CONSTRAINT person_pkey PRIMARY KEY (id)
 );
